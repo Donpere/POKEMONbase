@@ -1,0 +1,34 @@
+footer {
+	position:absolute;
+	bottom:0;  /* on le colle en bas */
+	width:100%;
+	height:100px;   /* Hauteur du pied de page */
+}
+
+.link-web {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.link-web a {
+	color: var(--I2);
+	text-decoration: none;
+}
+
+.link-web a img {
+	padding: 2vw;}
+
+.link-web a img {
+	min-width: 4vw;
+	max-width: 12vw;
+	width: 10vw;
+}
+
+.link-web a .gitCat {
+	width: 5vw;
+}
+
+.link-web a .imdbFront {
+	width: 5vw;
+}

@@ -1,0 +1,50 @@
+@import url("sections/header.css");
+@import url("sections/result.css");
+@import url("sections/footerPok.css");
+
+:root {
+	--C1: #FBE0C4;
+	--C2: #8AB6D6;
+	--C3: #2978B5;
+	--C4: #0061A8;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	background-color: var(--C1);
+	object-fit: contain;
+}
+
+.navPok {
+	position: fixed;
+	z-index: 2;
+	width: 100vw;
+	background-color: var(--C2);
+	padding: 3px;
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 0px 5px 5px rgb(0 0 0 / 0.4);
+}
+
+.navPok div img {
+	width: 20vw;
+}
+
+.contentPok {
+	position:relative;
+	top: 15vh;
+}
+
+footer {
+	color: var(--C3);
+	font-size: 2vw;
+	text-align: center;
+}

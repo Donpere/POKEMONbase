@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>POKEMON DATABASE</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	
+	<link rel="shortcut icon" href="assets/poke_ball_icon.svg" type="image/svg">
+
+</head>
+
+<body>
+
+<header>
+
+	<nav class="navPok">
+
+		<div class="search">
+			<input type="text" id="poke-name" placeholder="Entrez le nom d'un Pokemon..." value="pikachu">
+			<button id="search-btn">Rechercher</button>
+		</div>
+
+		<div class="logoPok">
+			<img  src="assets/logo-pokemon.svg" alt="Logo Pokemon">
+		</div>
+
+	</nav>
+
+</header>
+
+
+<div class="contentPok">
+	<section class="sect-result" id="result"></section>
+</div>
+
+<footer>
+	<div>Proudly supported by DONpere - doumemarion@hotmail.com</div> 
+</footer>
+
+<script src="js/randomPokemon.js" type="module"></script>
+<script src="js/index.js" type="module"></script>
+</body> 
+</html>

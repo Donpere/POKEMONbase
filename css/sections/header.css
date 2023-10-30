@@ -1,0 +1,47 @@
+img{
+	filter: drop-shadow(5px 5px 1px rgb(0 0 0 / 0.4));
+}
+
+nav {
+	padding: 0 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logoPok {
+	width: 20%;
+}
+
+.logo_chair .st0 {
+	fill: var(--C3);
+} 
+
+nav .search {
+	display: flex;
+	gap: 10px;
+}
+
+nav .search input,
+nav .search button {
+	cursor: pointer;
+	background-color: var(--C3);
+	padding: 5px 15px;
+	width: 15vw;
+	outline: none;
+	border: 2px solid var(--C3);
+	border-radius: 0.4em;
+	font-size: 2vw;
+	color: var(--C4);
+	text-align: center;
+}
+
+nav .search input {
+	background-color: var(--C4);
+	width: 30vw;
+	color: var(--C2);
+}
+
+nav .search button:active {
+	background-color: var(--C2);
+  }
